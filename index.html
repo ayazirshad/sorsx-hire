@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SorsX Hire</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- header  -->
     <header class="navbar">
       <div class="nav-container">
         <div class="logo-wrapper">
-          <img src="assets/sorsx_logo_black.png" alt="logo" class="logo" />
+          <img src="assets/SorsX-Logo-Black.svg" alt="logo" class="logo" />
         </div>
 
         <nav class="nav-links" id="mobileMenu">
           <div class="dropdown">
             <button class="dropdown-toggle">
-              Platform
+              <p class="text-B2">Platform</p>
               <img
                 src="./assets/drop_down_icon.png"
                 alt="Toggle"
@@ -31,7 +37,7 @@
           </div>
           <div class="dropdown">
             <button class="dropdown-toggle">
-              Industries
+              <p class="text-B2">Industries</p>
               <img
                 src="./assets/drop_down_icon.png"
                 alt="Toggle"
@@ -46,7 +52,7 @@
           </div>
           <div class="dropdown">
             <button class="dropdown-toggle">
-              Business Size
+              <p class="text-B2">Business Size</p>
               <img
                 src="./assets/drop_down_icon.png"
                 alt="Toggle"
@@ -60,7 +66,7 @@
           </div>
           <div class="dropdown">
             <button class="dropdown-toggle">
-              Company
+              <p class="text-B2">Company</p>
               <img
                 src="./assets/drop_down_icon.png"
                 alt="Toggle"
@@ -74,7 +80,7 @@
           </div>
           <div class="dropdown">
             <button class="dropdown-toggle">
-              Privacy & Security
+              <p class="text-B2">Privacy & Security</p>
               <img
                 src="./assets/drop_down_icon.png"
                 alt="Toggle"
@@ -143,7 +149,7 @@
         </div>
 
         <button class="toggle-btn" id="menuToggleBtn">
-          <img src="assets/menu.png" alt="Menu" id="menuIcon" />
+          <img src="assets/menu.svg" alt="Menu" id="menuIcon" />
         </button>
       </div>
     </header>
@@ -156,20 +162,22 @@
         </div>
         <h1 class="main-heading">
           <span class="first-word">AI Recruitment</span> Software <br />
-          <p>for Applicants</p>
+          <span>for Applicants</span>
         </h1>
         <p class="sub-text">
           Automate job setup, screening, and AI video interviews so teams can
           shortlist top talent in minutes.
         </p>
-        <div class="btn-wrapper buttons-desktop">
+        <div class="btn-wrapper">
           <button class="blue-border-button">
             <p>Request a demo</p>
-            <!-- <img src="images/right-arrow.png" alt="arrow" /> -->
           </button>
-          <!-- <button class="outline-button">View Plans</button> -->
         </div>
-        <div class="hero-image-wrapper">
+
+        <div class="mobile-image">
+          <img src="./assets/hero_mobile_img.svg" alt="hero-image" />
+        </div>
+        <div class="hero-image-wrapper desktop-image">
           <img
             src="./assets/sorsx_corner_img.png"
             alt="corner-image"
@@ -181,77 +189,123 @@
             class="hero-main-img"
           />
         </div>
-        <div class="slider">
-          <div class="slide-track">
-            <div class="slide">
-              <img src="assets/hero-logo-1.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-2.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-3.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-4.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-5.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-Proje.png" alt="scrollLogo" />
-            </div>
-            <!-- duplicate  -->
-            <div class="slide">
-              <img src="assets/hero-logo-1.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-2.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-3.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-4.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-5.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-Proje.png" alt="scrollLogo" />
-            </div>
-            <!-- triple -->
-            <div class="slide">
-              <img src="assets/hero-logo-1.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-2.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-3.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-4.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-5.png" alt="scrollLogo" />
-            </div>
-            <div class="slide">
-              <img src="assets/hero-logo-Proje.png" alt="scrollLogo" />
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
+    <!-- slider  -->
+    <div class="slider container">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="assets/logo_1.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_2.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_3.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_4.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_5.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_6.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_7.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_8.svg" alt="scrollLogo" />
+        </div>
+        <!-- duplicate  -->
+        <div class="slide">
+          <img src="assets/logo_1.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_2.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_3.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_4.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_5.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_6.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_7.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_8.svg" alt="scrollLogo" />
+        </div>
+        <!-- triple -->
+        <div class="slide">
+          <img src="assets/logo_1.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_2.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_3.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_4.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_5.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_6.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_7.svg" alt="scrollLogo" />
+        </div>
+        <div class="slide">
+          <img src="assets/logo_8.svg" alt="scrollLogo" />
+        </div>
+      </div>
+    </div>
+
+    <!-- logos for mobile  -->
+    <div class="container logo-stack">
+      <div class="stack-logo-1">
+        <img src="assets/logo_1.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-2">
+        <img src="assets/logo_2.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-3">
+        <img src="assets/logo_3.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-4">
+        <img src="assets/logo_4.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-5">
+        <img src="assets/logo_5.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-6">
+        <img src="assets/logo_6.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-7">
+        <img src="assets/logo_7.svg" alt="scrollLogo" />
+      </div>
+      <div class="stack-logo-8">
+        <img src="assets/logo_8.svg" alt="scrollLogo" />
+      </div>
+    </div>
+
     <!-- for recruiters section -->
-    <section class="info-section feature-info-section padding-y padding-x">
-      <div class="container flex-between gap-10">
+    <section class="info-section feature-info-section">
+      <div class="container flex">
         <div class="info-content">
-          <div class="tag-pill">For Recruiters & TA Leaders</div>
-          <h2 class="section-heading">
-            From job post to shortlist, automatically
-          </h2>
+          <div class="page-name-text">For Recruiters & TA Leaders</div>
+          <h3>From job post to shortlist, automatically</h3>
           <p class="section-description">
             ScaleHire automates the early funnel end-to-end: job descriptions,
             interview questions, resume screening, and candidate routing. You
@@ -267,14 +321,14 @@
     </section>
 
     <!-- outreach section -->
-    <section class="info-section outreach-section padding-y padding-x">
-      <div class="container flex-between gap-10">
+    <section class="info-section outreach-section padding-y">
+      <div class="container flex">
         <div class="info-image">
           <img src="assets/for_hiring_img.png" alt="For Hiring managers" />
         </div>
         <div class="info-content">
-          <div class="tag-pill">For Hiring Managers</div>
-          <h2 class="section-heading">Instant interviews from job boards</h2>
+          <div class="page-name-text">For Hiring Managers</div>
+          <h3>Instant interviews from job boards</h3>
           <p class="section-description">
             ScaleHire integrates with the job boards you already use so
             candidates can move from application to interview fast. For roles
@@ -291,13 +345,11 @@
     </section>
 
     <!-- talent section -->
-    <section class="info-section feature-info-section padding-y padding-x">
+    <section class="info-section feature-info-section padding-y">
       <div class="container flex-between gap-10">
         <div class="info-content">
-          <div class="tag-pill">For Talent Operations</div>
-          <h2 class="section-heading">
-            Interview integrity + structured scoring
-          </h2>
+          <div class="page-name-text">For Talent Operations</div>
+          <h3>Interview integrity + structured scoring</h3>
           <p class="section-description">
             ScaleHire runs AI video interviews with a consistent structure, then
             analyzes responses to deliver a clear evaluation summary. It can
@@ -313,7 +365,7 @@
     </section>
 
     <!-- cards section -->
-    <section class="cards-section padding-y padding-x">
+    <section class="cards-section padding-y">
       <div class="bg-blur-circles">
         <div class="blur-circle circle-1"></div>
         <div class="blur-circle circle-2"></div>
@@ -322,14 +374,17 @@
       <div class="container grid-cards">
         <!-- left large card -->
         <div class="card card-large">
-          <div class="card-icon">
-            <img src="assets/ai_video_icon.png" alt="AI Icon" />
+          <div class="card-info">
+            <div class="card-icon">
+              <img src="assets/ai_video_icon.png" alt="AI Icon" />
+            </div>
+            <h5>Interview 100% of applicants</h5>
+            <p class="card-desc">
+              Screen at scale with AI video interviews without slowing
+              recruiters or managers.
+            </p>
           </div>
-          <h3 class="card-heading">Interview 100% of applicants</h3>
-          <p class="card-desc">
-            Screen at scale with AI video interviews without slowing recruiters
-            or managers.
-          </p>
+
           <div class="card-main-img">
             <img src="assets/ai_video_img.png" alt="interview" />
           </div>
@@ -343,7 +398,7 @@
               <div class="card-icon">
                 <img src="assets/message_icon.png" alt="Checklist Icon" />
               </div>
-              <h3 class="card-heading">Decisions in ~3 minutes</h3>
+              <h5>Decisions in ~3 minutes</h5>
               <p class="card-desc">
                 Turn completed interviews into ranked shortlists fast, built for
                 high-volume hiring.
@@ -360,7 +415,7 @@
               <div class="card-icon">
                 <img src="assets/mail_icon.png" alt="User Icon" />
               </div>
-              <h3 class="card-heading">Multi-channel engagement</h3>
+              <h5>Multi-channel engagement</h5>
               <p class="card-desc">
                 Keep candidates moving with outreach across email, SMS,
                 WhatsApp, and LinkedIn.
@@ -375,7 +430,7 @@
     </section>
 
     <!-- feedback section -->
-    <section class="feedback-section padding-x padding-y">
+    <section class="feedback-section padding-y">
       <div class="container feedback-container">
         <div class="ceo-photo-wrapper">
           <img src="assets/manager_img.png" alt="manager" class="ceo-photo" />
@@ -403,10 +458,10 @@
     </section>
 
     <!-- faq section -->
-    <section class="faq-section padding-y padding-x">
+    <section class="faq-section padding-y">
       <div class="container faq-container">
         <div class="faq-left">
-          <h2 class="section-heading">Frequently Asked Questions</h2>
+          <h3>Frequently Asked Questions</h3>
           <p class="section-description">
             Find quick answers to the most commonly asked questions.
           </p>
@@ -416,7 +471,7 @@
             <!-- item 1 -->
             <div class="faq-item active">
               <div class="faq-header">
-                <h3 class="faq-question">What is ScaleHire?</h3>
+                <h6 class="faq-question">What is ScaleHire?</h6>
                 <img
                   src="assets/minus_icon.png"
                   alt="toggle"
@@ -433,9 +488,9 @@
             <!-- item 2 -->
             <div class="faq-item">
               <div class="faq-header">
-                <h3 class="faq-question">
+                <h6 class="faq-question">
                   Can candidates apply without a resume?
-                </h3>
+                </h6>
                 <img src="assets/plus_icon.png" alt="toggle" class="faq-icon" />
               </div>
               <div class="faq-body">
@@ -448,7 +503,7 @@
             <!-- item 3 -->
             <div class="faq-item">
               <div class="faq-header">
-                <h3 class="faq-question">Does it integrate with job boards?</h3>
+                <h6 class="faq-question">Does it integrate with job boards?</h6>
                 <img src="assets/plus_icon.png" alt="toggle" class="faq-icon" />
               </div>
               <div class="faq-body">
@@ -461,9 +516,9 @@
             <!-- item 4 -->
             <div class="faq-item">
               <div class="faq-header">
-                <h3 class="faq-question">
+                <h6 class="faq-question">
                   Does it integrate with ATS/HRIS systems?
-                </h3>
+                </h6>
                 <img src="assets/plus_icon.png" alt="toggle" class="faq-icon" />
               </div>
               <div class="faq-body">
@@ -476,9 +531,9 @@
             <!-- item 5 -->
             <div class="faq-item">
               <div class="faq-header">
-                <h3 class="faq-question">
+                <h6 class="faq-question">
                   Can we use our own interview questions?
-                </h3>
+                </h6>
                 <img src="assets/plus_icon.png" alt="toggle" class="faq-icon" />
               </div>
               <div class="faq-body">
@@ -491,9 +546,9 @@
             <!-- item 6 -->
             <div class="faq-item">
               <div class="faq-header">
-                <h3 class="faq-question">
+                <h6 class="faq-question">
                   How does it support candidate experience?
-                </h3>
+                </h6>
                 <img src="assets/plus_icon.png" alt="toggle" class="faq-icon" />
               </div>
               <div class="faq-body">
@@ -509,7 +564,7 @@
     </section>
 
     <!-- stop paying section -->
-    <section class="stop-paying-section padding-y padding-x">
+    <section class="stop-paying-section padding-y">
       <div class="circles-background">
         <img
           src="assets/stop_circle_3.png"
@@ -531,26 +586,24 @@
       <div class="container stop-paying-container z-10">
         <div class="stop-paying-content">
           <div class="tag-pill white-pill">Take the next step</div>
-          <h2 class="section-heading white-text">
-            Stop drowning in applicants
-          </h2>
-          <p class="section-description white-text">
+          <h3 class="white-text">Stop drowning in applicants</h3>
+          <p class="white-text">
             Replace manual screening and scheduling with recruiting automation
             that preserves quality and candidate experience.
           </p>
           <div class="stop-paying-logos">
-            <img src="assets/hero-logo-1.png" alt="logo" />
-            <img src="assets/hero-logo-2.png" alt="logo" />
-            <img src="assets/hero-logo-Proje.png" alt="logo" />
-            <img src="assets/hero-logo-3.png" alt="logo" />
-            <img src="assets/hero-logo-4.png" alt="logo" />
-            <img src="assets/hero-logo-5.png" alt="logo" />
+            <img src="assets/logo_4.svg" alt="logo" />
+            <img src="assets/logo_5.svg" alt="logo" />
+            <img src="assets/logo_6.svg" alt="logo" />
+            <img src="assets/logo_7.svg" alt="logo" />
+            <img src="assets/logo_3.svg" alt="logo" />
+            <img src="assets/logo_2.svg" alt="logo" />
           </div>
         </div>
 
         <div class="stop-paying-card-wrapper">
           <div class="stop-paying-card">
-            <h3>Request a Demo</h3>
+            <h6>Request a Demo</h6>
             <p>
               Get a personalized walkthrough and see how ScaleHire fits your
               workflow. You'll know in one call if it's right.
@@ -573,7 +626,7 @@
     </section>
 
     <!-- footer -->
-    <footer class="footer padding-y padding-x">
+    <footer class="footer padding-y">
       <div class="footer-container container">
         <div class="footer-top">
           <div class="footer-logo-section">
@@ -582,7 +635,7 @@
               alt="SorsX"
               class="footer-logo"
             />
-            <p class="footer-description">
+            <p class="text-T1">
               SorsX is an AI recruiting platform and AI interview software that
               plugs into your existing process, automating sourcing, screening,
               and AI video interviews so your team focuses only on the best
@@ -639,17 +692,28 @@
             </div>
           </div>
         </div>
+        <div class="divider"></div>
         <div class="footer-bottom">
           <p class="copyright">© 2026 SorsX. All rights reserved.</p>
           <div class="social-links">
-            <a href="#"><img src="assets/insta_icon.png" alt="Instagram" /></a>
-            <a href="#"
-              ><img src="assets/linkedin_icon.png" alt="LinkedIn"
-            /></a>
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="assets/linkedIn.svg" alt="LinkedIn" /></a>
           </div>
         </div>
       </div>
     </footer>
+
+    <script>
+      const navbar = document.querySelector(".navbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add("navbar--scrolled");
+        } else {
+          navbar.classList.remove("navbar--scrolled");
+        }
+      });
+    </script>
 
     <script src="script.js"></script>
   </body>
